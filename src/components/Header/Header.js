@@ -1,25 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
-function Header(props) {
+const Header = (props) => {
+  const [hidden, setHidden] = useState(true);
+
+  const toggle = () => setHidden(!hidden);
+
   return (
     <header className="app-header">
-      <button class="mobile-nav-btn logo" onClick={props.onLogo}>
+      <button className="mobile-nav-btn logo" onClick={props.onLogo}>
         <h1> 
           <i>&#xe801;</i>harteCode /<i>&#xe802;</i>
         </h1>
       </button>
       
-      <button class="mobile-nav-btn toggle-hamburger">
+      <button
+        className="mobile-nav-btn toggle-hamburger"
+        onClick={toggle}>
         <i>&#xf0c9;</i>
       </button>
-      <nav role="navigation" class="navbar">
-        <div id="bio" class="bio navbutton">
-          <a href="#bioBox">Bio</a>
-        </div>
-        <div id="project" class="nav-button">
-          <a href="#projectBox">Projects</a>
-        </div>
+      <nav role="navigation" className={`${hidden ? 'hide' : ''} navbar`}>
+        <button
+          className="nav-button"
+          onClick={props.onGoToBio}>
+          Bio
+        </button>
+        <button
+          className="nav-button"
+          onClick={props.onGoToProject}>
+          Projects
+        </button>
       </nav>
     </header>
   );

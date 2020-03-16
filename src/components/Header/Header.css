@@ -7,9 +7,8 @@
   box-sizing: border-box;
   color: var(--text-color);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  position: absolute;
-  top: 0;
   overflow: hidden;
   -webkit-transition: all .5s;
   transition: all .5s; 
@@ -22,28 +21,28 @@
 }
 
 .logo h1 {
+  font-size: 2rem;
   margin: 0;
 }
 
 .toggle-hamburger {
-  font-size: 1.5rem;
-}
-
-a:link, a:visited { 
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(86, 86, 217);
-  text-decoration: underline;
+  font-size: 2rem;
 }
 
 .nav-button {
-  font-size: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
+  background-color: var(--btn-background-color);
+  border: none;
+  color: var(--text-color);
+  display: block;
+  font-size: 1.875rem;
+  padding: 0 0.3125rem;
   cursor: pointer;
+  width: 100%;
+}
+
+.nav-button:hover {
+  color: rgb(86, 86, 217);
+  text-decoration: underline;
 }
 
 .mobile-nav-btn {
@@ -54,78 +53,48 @@ a:hover {
   padding: 0.625rem;
 }
 
-@media screen and (min-width: 600px) {
-  .navbutton {
-      font-size: 30px;
-      padding-left: 5px;
-      padding-right: 5px;
-      cursor: pointer;
-  }
-
+.navbar {
+  text-align: right;
+  color: var(--text-color);
+  right: 0;
+  top: 0;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  width: 100%;
 }
 
-@media screen and (max-width: 900px) {
+.hide {
+  transform: translateX(100%);
+}
+
+@media screen and (min-width: 37.5rem) {
+  .toggle-hamburger {
+    display: none;
+  }
+
+  .app-header {
+    flex-wrap: nowrap;
+  }
+
   .navbar {
-      position: fixed;
-      text-align: right;
-      color: white;
-      width: 0;
-      margin-top: 50px;
-      padding-top: 5px;
-      overflow-x: hidden;
-      right: 0;
-      top: 0;
-      transition: all .5s;
-      -webkit-transition: all .5s; 
+    display: flex;
+    width: auto;
   }
 
-  .is-nav-stircky {
-      background-color: #303030;
+  .hide {
+    transform: unset;
   }
 
-  .navwidth {
-      width: 200px;
+  .nav-button {
+    padding: 0.625rem;
   }
 
-  .navbar > div {
-      display: block;
-      margin-bottom: 10px;
-      text-align: center;
-  }
-
-  .navbar > div a:link, .navbar > div a:visited {
-    color: white;
-  }
+} 
 
 
-  #opennav {
-      float: right;
-      font-size: 30px;
-      cursor: pointer;
-  }
-
-  .fullWidth {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 900px){
-  header {
-    padding-left: 40px;
-    padding-right: 40px;
+@media screen and (min-width: 56.25rem){
+  .app-header {
+    padding: 0 2.5rem;
   }
   
-  #closenav, #opennav {
-      display: none;
-  }
-
-  .navbar {
-      height: 100%;
-      float: right;
-  }
-
-  .navbutton {
-      display: inline-block;
-      margin-left: 10px;
-  }
 }
