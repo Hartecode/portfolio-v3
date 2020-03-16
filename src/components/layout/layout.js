@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 const Layout = ({
   children
@@ -9,10 +10,7 @@ const Layout = ({
   <React.Fragment>
     <Header></Header>
     {children}
-    <footer>
-      <div>©2020 Panda Ipsum</div>
-      <div>Created and operated by <a href="https://www.hartecode.com/">Sean Harte</a></div>
-    </footer>
+    <Footer></Footer>
   </React.Fragment>
 )
 }

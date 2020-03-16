@@ -1,0 +1,32 @@
+footer {
+  background-color: rgb(48, 48, 48);
+  box-sizing: border-box;
+  color: rgb(252, 252, 252);
+  display: flex;
+  font-size: 1.375rem;
+  height: 12.5rem;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2rem 0.625rem;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:link,
+footer a:visited { 
+  color: rgb(153, 84, 199);
+}
+
+footer a:hover {
+  color: rgb(86, 86, 217);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 56.25rem){
+  footer {
+    padding: 2rem 2.5rem;
+  }
+}
