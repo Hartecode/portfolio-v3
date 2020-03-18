@@ -4,6 +4,7 @@
 }
 
 .app-header {
+  background-color: rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   color: var(--text-color);
   display: flex;
@@ -13,7 +14,6 @@
   -webkit-transition: all .5s;
   transition: all .5s; 
   width: 100%;
-  z-index: 1;
 }
 
 .app-header a:link, .app-header a:visited { 
