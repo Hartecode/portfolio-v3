@@ -9,19 +9,19 @@ const Footer = () => (
         href="https://github.com/Hartecode"
         rel="noopener"
         aria-label="Sean Harte's GitHub">
-          <i class="githubIcon">&#xf09b;</i>
+          <i className="githubIcon">&#xf09b;</i>
       </a>
       <a
         href="https://www.linkedin.com/in/seanharte/"
         rel="noopener"
         aria-label="Sean Harte's Linkedin">
-          <i class="linkedinIcon">&#xf30c;</i>
+          <i className="linkedinIcon">&#xf30c;</i>
       </a>
       <a
         href="mailto:seanharte@live.com" 
         rel="noopener"
         aria-label="Sean Harte's email">
-          <i class="emailLink">&#xf0e0;</i>
+          <i className="emailLink">&#xf0e0;</i>
       </a>
     </nav>
   </footer>
