@@ -1,5 +1,6 @@
 :root {
   --text-color: rgb(255, 255, 255);
+  --text-color2:  rgb(86, 86, 217);
   --btn-background-color: rgba(0, 0, 0, 0);
 }
 
@@ -10,10 +11,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: absolute;
   overflow: hidden;
   -webkit-transition: all .5s;
   transition: all .5s; 
   width: 100%;
+  z-index: 1;
 }
 
 .app-header a:link, .app-header a:visited { 
@@ -41,7 +44,7 @@
 }
 
 .nav-button:hover {
-  color: rgb(86, 86, 217);
+  color: var(--text-color2);
   text-decoration: underline;
 }
 
