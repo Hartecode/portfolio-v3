@@ -17,7 +17,7 @@
 }
 
 .stars {
-  background: rgb(0, 0, 0) url(/images/stars.png) repeat top center;
+  background: var(--background-color4) url(/images/stars.png) repeat top center;
   z-index: 0;
 }
 

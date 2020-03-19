@@ -1,5 +1,6 @@
 .greeting {
   box-sizing: border-box;
+  background-color: var(--background-color2);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +12,7 @@
 }
 
 .statementGreeting {
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
 }
 
 .contactGreeting {
@@ -21,7 +22,7 @@
 }
 
 .contactLink {
-  margin: 10px;
+  margin: 0.625rem;
   transition: all ease-out 0.3s;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .contactLink:nth-of-type(1) > .greetingIcons{
-  color: rgb(0, 119, 181);
+  color: var(--text-color5);
 }
  
 .contactLink:nth-of-type(2) > .greetingIcons{
@@ -57,7 +58,7 @@
 }
 
 .contactLink:nth-of-type(3) > .greetingIcons{
-  color: rgb(204, 14, 14);
+  color: var(--text-color4);
 }
  
 .contactLink:nth-of-type(4) > .greetingIcons{

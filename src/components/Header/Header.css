@@ -1,11 +1,5 @@
-:root {
-  --text-color: rgb(255, 255, 255);
-  --text-color2:  rgb(86, 86, 217);
-  --btn-background-color: rgba(0, 0, 0, 0);
-}
-
 .app-header {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color2);
   box-sizing: border-box;
   color: var(--text-color);
   display: flex;
@@ -19,7 +13,8 @@
   z-index: 1;
 }
 
-.app-header a:link, .app-header a:visited { 
+.app-header a:link,
+.app-header a:visited { 
   color: var(--text-color);
 }
 
@@ -33,7 +28,7 @@
 }
 
 .nav-button {
-  background-color: var(--btn-background-color);
+  background-color: var(--background-color);
   border: none;
   color: var(--text-color);
   display: block;
@@ -49,7 +44,7 @@
 }
 
 .mobile-nav-btn {
-  background-color: var(--btn-background-color);
+  background-color: var(--background-color);
   border: none;
   color: var(--text-color);
   cursor: pointer;
