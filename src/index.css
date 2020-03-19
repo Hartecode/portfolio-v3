@@ -1,3 +1,15 @@
+:root {
+  --text-color: rgb(255, 255, 255);
+  --text-color2:  rgb(86, 86, 217);
+  --text-color3:  rgb(153, 84, 199);
+  --text-color4: rgb(204, 14, 14);
+  --text-color5: rgb(0, 119, 181);
+  --background-color: rgba(0, 0, 0, 0);
+  --background-color2: rgba(0, 0, 0, 0.1);
+  --background-color3: rgb(48, 48, 48);
+  --background-color4: rgb(0, 0, 0);
+}
+
 body,
 html {
   height: 100%;
