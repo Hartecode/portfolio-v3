@@ -1,0 +1,18 @@
+.container {
+  background-color: var(--background-color5);
+  box-sizing: border-box;
+  color: var(--text-color6);
+  padding: 3rem 1.5rem;
+  font-size: 1.5rem;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 5.625rem;
+  margin-top: 0;
+  font-size: 3rem;
+  width: 100%;
+}
