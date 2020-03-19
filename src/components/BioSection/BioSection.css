@@ -1,0 +1,40 @@
+.profile-dec {
+  margin-bottom: 3rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 200px;
+}
+
+.my-skills {
+  text-align: center;
+  margin: auto;
+}
+
+.skillcategory {
+  min-width: 130px;
+  padding-top: 20px;
+  margin: auto;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--text-color3); /* Safari */    
+  text-decoration-color: var(--text-color3);
+}
+
+@media screen and (min-width: 40rem) {
+  .about-me {
+    display: flex;
+  }
+
+  .profile-dec,
+  .my-skills {
+    flex: 1;
+  }
+
+  .profile-dec {
+    margin-right: 1rem;
+  }
+}
