@@ -16,3 +16,15 @@
   font-size: 3rem;
   width: 100%;
 }
+
+@media screen and (min-width: 40rem) {
+  .container { 
+    padding: 4rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 56.25rem){
+  .container { 
+    padding: 6rem 2rem;
+  }
+}
