@@ -1,0 +1,15 @@
+.image-comp {
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  transition: all .4s;
+  width: 100%;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.round {
+  border-radius: 50%;
+}
