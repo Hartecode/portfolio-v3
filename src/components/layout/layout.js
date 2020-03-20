@@ -3,12 +3,14 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
 const Layout = ({
+  onGoToBio,
+  onGoToProject,
   children
 }) => {
   
   return (
   <React.Fragment>
-    <Header></Header>
+    <Header onGoToBio={onGoToBio} onGoToProject={onGoToProject}></Header>
     {children}
     <Footer></Footer>
   </React.Fragment>

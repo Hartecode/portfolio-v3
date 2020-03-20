@@ -38,9 +38,9 @@
   font-size: 2em;
 }
 
-.icon-large-size {
+.greeting-icon {
   display: block;
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   margin-bottom: 0.25rem;
 }
 
@@ -65,3 +65,8 @@
   color: var(--text-color2);
 }
  
+@media screen and (min-width: 37.5rem) {
+  .greeting-icon {
+    font-size: 3.75rem;
+  }
+} 

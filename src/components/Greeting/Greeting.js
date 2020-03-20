@@ -15,7 +15,7 @@ function Greeting({greeting, title, icons}) {
           aria-label={val.label}
           target="_blank" >      
           <i
-            className="icon-large-size"
+            className="greeting-icon"
             dangerouslySetInnerHTML={createMarkup(val.code)}>
           </i>
           <span>{val.name}</span>
