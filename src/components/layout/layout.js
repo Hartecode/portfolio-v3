@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
 const Layout = ({
+  stickHeader,
   onGoToBio,
   onGoToProject,
   children
@@ -10,7 +11,7 @@ const Layout = ({
   
   return (
   <React.Fragment>
-    <Header onGoToBio={onGoToBio} onGoToProject={onGoToProject}></Header>
+    <Header onGoToBio={onGoToBio} onGoToProject={onGoToProject} stickHeader={stickHeader}></Header>
     {children}
     <Footer></Footer>
   </React.Fragment>
