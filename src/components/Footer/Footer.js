@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => (
   <footer role="contentinfo">
-    <div>©2018 Sean Harte</div>
+    <div>©{(new Date()).getFullYear()} Sean Harte</div>
     <nav>
       <a
         href="https://github.com/Hartecode"
