@@ -16,7 +16,7 @@ const greetingData = {
     },
     {
       label: "Sean Harte's Resume",
-      link: '/seanharteResume.pdf',
+      link: '/seanHarteResume2020.pdf',
       code: '&#xf1c1;',
       name: 'Résumé'
     },
