@@ -26,7 +26,7 @@ const BioSection = ({bioPageData, areaRef}) => {
         <div className="my-skills">
             {
               bioPageData.skills.map(({label, skills}) => (
-                <div className="skillblock">
+                <div key={label} className="skillblock">
                   <div className="skillcategory">
                     <strong>{label}:</strong> 
                   </div>

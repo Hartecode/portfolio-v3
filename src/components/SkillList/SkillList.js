@@ -6,7 +6,7 @@ import Skill from '../Skill/Skill';
 
 const SkillList = ({list}) => (
   <ul className="skillList">
-    {list.map(val => <Skill name={val}></Skill>)}
+    {list.map(val => <Skill key={val} name={val}></Skill>)}
   </ul>
 );
 

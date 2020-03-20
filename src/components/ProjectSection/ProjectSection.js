@@ -10,7 +10,7 @@ const ProjectSection = ({projectPageData, areaRef}) => {
       {
         projectPageData.projects.map((
           {name, image, github, website, skills, description}) => (
-          <div className="project-temp">
+          <div key={name} className="project-temp">
             <h3>{name}</h3>
             <img
               className="project-img"
