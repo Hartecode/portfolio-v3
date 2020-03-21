@@ -11,7 +11,8 @@ const Image = ({src, alt, round}) =>  {
       rootMargin: '0px',
       threshold: 1
     }
-    if (IntersectionObserver) {
+    // try catch is need bc of browser support for the intersection observer
+    try {
       const lazyLoad = elm => {
         const io = new IntersectionObserver((entries, observer) => {
           entries.forEach(entry => {
@@ -24,9 +25,10 @@ const Image = ({src, alt, round}) =>  {
         io.observe(elm)
       }
       [imgRef.current].forEach(lazyLoad)
-    } else {
+    } catch (err) {
       setLoad(true)
     }
+
   }
 
   useEffect(() => {
