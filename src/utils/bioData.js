@@ -7,18 +7,36 @@ const bioData = {
   contactEmail: 'seanharte@live.com',
   skills: [
     {
+      label: 'Languages',
+      skills: [
+        'JavaScript',
+        'Typescript',
+        'HTML5',
+        'CSS3',
+        'Scss',
+        'Sass'
+      ]
+    },
+    {
       label: 'Front-end',
       skills: [
         'React',
         'Redux',
-        'Angular',
+        'Angular (7,8,9)',
         'NGRX',
         'RXJS',
-        'Typescript',
         'Next.JS',
         'jQuery',
-        'HTML5',
-        'CSS3'
+        'Bootstrap',
+        'Responsive Design',
+        'Semantic HTML',
+        'a11Y',
+        'ADA complaint',
+        'Storybook.JS',
+        'Babel',
+        'Webpack',
+        'PWA',
+        'OIDC'
       ]
     },
     {
@@ -27,7 +45,12 @@ const bioData = {
         'Node.JS',
         'Express',
         'Hapi',
-        'MongoDB'
+        'MongoDB',
+        'Server Side Rendering',
+        'NoSQL',
+        'RESTful APIs',
+        'Passport.JS',
+        'Socket.IO'
       ]
     },
     {

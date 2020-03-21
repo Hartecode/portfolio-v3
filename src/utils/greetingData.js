@@ -1,5 +1,5 @@
 const greetingData = {
-  greeting: "Hi, I'm Sean Harte",
+  greeting: "Hi, I'm Sean Harte,",
   title: 'A Full Stack developer!',
   icons: [
     {

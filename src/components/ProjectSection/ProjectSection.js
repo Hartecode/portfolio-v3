@@ -6,6 +6,26 @@ import Image from '../Image/Image';
 
 
 const ProjectSection = ({projectPageData, areaRef}) => {
+
+  const demoBtn = (website, name) => {
+    if (website) {
+      return (
+        <a className="btn"
+          href={website}
+          aria-label={name}
+          rel="noopener noreferrer"
+          target="_blank">
+          Demo
+        </a>
+      )
+    } else {
+      return (
+        <button className="disabled-btn" disabled>
+          Not Maintained
+        </button>
+      )
+    }
+  }
   return (
     <Section title={projectPageData.pageName} ref={areaRef}>
       {
@@ -25,9 +45,9 @@ const ProjectSection = ({projectPageData, areaRef}) => {
               <a className="btn" href={github} aria-label={`${name} github`} rel="noopener noreferrer" target="_blank">
                 GitHub
               </a>
-              <a className="btn" href={website} aria-label={name} rel="noopener noreferrer" target="_blank">
-                Demo
-              </a>
+              {
+                demoBtn(website, name)
+              }
             </nav>
           
             <SkillList list={skills}></SkillList>
