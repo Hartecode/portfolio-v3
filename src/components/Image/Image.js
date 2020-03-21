@@ -6,6 +6,11 @@ const Image = ({src, alt, round}) =>  {
   const imgRef = useRef()
 
   const runImageLazyLoad = () => {
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 1
+    }
     if (IntersectionObserver) {
       const lazyLoad = elm => {
         const io = new IntersectionObserver((entries, observer) => {
@@ -15,7 +20,7 @@ const Image = ({src, alt, round}) =>  {
                 observer.disconnect()
               }
             });
-          });
+          }, options);
         io.observe(elm)
       }
       [imgRef.current].forEach(lazyLoad)

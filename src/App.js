@@ -22,10 +22,8 @@ function App() {
     const scrollTop = window.scrollY;
 
     if (scrollTop >= bioTop) {
-      console.log('sticky')
       if (!stickHeader) setStickHeader(true)
     } else {
-      console.log('not sticky')
       if (stickHeader) setStickHeader(false)
     }
   }
