@@ -3,7 +3,7 @@ const bioData = {
     alt: "Sean Harte",
     src: 'images/bioPic.jpg'
   },
-  description: `I am a client side focused full stack developer.  I am currently working with the MERN stack. When I was younger I enjoyed building things with legos. I would sometimes follow the directions in the box but I had the most fun thinking outside the box to create unique pieces.  Now that I am older I have replaced my lego blocks for blocks of code.  By coding I can create anything my imagination can come up with.`,
+  description: `Hi! I’m a full stack engineer with a focus on client-side applications. Most recently, I’ve been maintaining and expanding an e-commerce site with over 38 million visitors and over $194 million of gross income annually.  I’m always excited to work on new projects for personal enjoyment or in order to deliver business value. `,
   contactEmail: 'seanharte@live.com',
   skills: [
     {

@@ -18,8 +18,8 @@ const BioSection = ({bioPageData, areaRef}) => {
             </Image>
           </div>
           <p>{bioPageData.description}</p>
-          <p>Have a cool project?
-            <a href={`mailto:${bioPageData.contactEmail}`}
+          <p>Want to work with me?
+            <a className="let-me-know" href={`mailto:${bioPageData.contactEmail}`}
               rel="noopener"
               aria-label="Sean Harte's email">Let me know! 
               <i className="fas fa-envelope"></i>

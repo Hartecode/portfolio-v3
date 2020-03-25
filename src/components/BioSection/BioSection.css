@@ -21,6 +21,11 @@
   text-decoration-color: var(--text-color3);
 }
 
+.let-me-know {
+  color: var(--text-color3);
+  margin-left: 1rem;
+}
+
 @media screen and (min-width: 40rem) {
   .about-me {
     display: flex;
