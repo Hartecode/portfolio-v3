@@ -1,8 +1,8 @@
-import React, {useRef, useEffect, useState} from 'react';
-import './App.css';
-import Layout from './components/layout/layout';
-import StarField from './components/StarField/StarField';
-import Landing from './components/Landing/Landing';
+import React, {useRef, useEffect, useState} from 'react'
+import './App.css'
+import Layout from './components/layout/layout'
+import StarField from './components/StarField/StarField'
+import Landing from './components/Landing/Landing'
 
 function App() {
   const [stickHeader, setStickHeader] = useState(false)
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
