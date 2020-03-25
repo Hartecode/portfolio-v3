@@ -8,7 +8,7 @@ const projectData = [
         github: 'https://github.com/Hartecode/trailer-bug',
         website: 'https://trailerbug.netlify.com/',
         skills: ['Angular', 'Angular Material', 'Typescript', 'RXJS', 'SCSS', 'Storybook.JS', 'Jasmine', 'Husky', 'PWA', 'Webpack', 'Mobile First Design'],
-        description: 'Panda Ipsum is a fun site made to generate random Lorem Ipsum for panda lovers. Panda Ipsum is great for placeholder text or for fun reads. This site uses a markov chain to randomly generate different blocks of text.',
+        description: 'Trailer Bug is a fun app to allow users to search or discover movies or tv show trailers to watch. This is a great app for anyone who loves watching trailers more then the actual movie or show.',
         yearDeveloped: 2020
     },
     {
