@@ -59,7 +59,7 @@ const projectData = [
         description: 'This app ranks 50 cryptocurrencies by percentage change. The user can click on a currency or type the name of a cryptocurrency in the search bar to obtain the symbol, current price, percentage change, market cap, volume, and open price in the past 24 hours. The user can also click on the articles on the right on desktop screens or on the button on mobile screens for the latest in crypto news.',
         yearDeveloped: 2018
     }
-];
+]
 
 const projectPageData = {
     pageName: 'Projects',

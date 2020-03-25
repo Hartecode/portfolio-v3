@@ -1,5 +1,5 @@
-import React from 'react';
-import './Footer.css';
+import React from 'react'
+import './Footer.css'
 
 const Footer = () => (
   <footer role="contentinfo">
@@ -27,4 +27,4 @@ const Footer = () => (
   </footer>
 );
 
-export default Footer;
+export default Footer

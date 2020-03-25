@@ -5,7 +5,7 @@ import StarField from './components/StarField/StarField';
 import Landing from './components/Landing/Landing';
 
 function App() {
-  const [stickHeader, setStickHeader] = useState(false);
+  const [stickHeader, setStickHeader] = useState(false)
   const bioRef = useRef()
   const projRef = useRef()
 
@@ -29,7 +29,7 @@ function App() {
   }
 
   useEffect(() => {
-    window.addEventListener('scroll', showScroll, {passive: true});
+    window.addEventListener('scroll', showScroll, {passive: true})
   });
 
   return (

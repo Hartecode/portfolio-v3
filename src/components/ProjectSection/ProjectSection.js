@@ -78,7 +78,7 @@ const ProjectSection = ({projectPageData, areaRef}) => {
         showAllProj()
       }
     </Section>
-  );
+  )
 }
 
 export default ProjectSection

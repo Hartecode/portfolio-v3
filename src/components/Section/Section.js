@@ -8,6 +8,6 @@ const Section = React.forwardRef(({title, children}, ref) => (
     <h2 className="sectionTitle">{title}</h2>
     {children}
   </section>
-));
+))
 
 export default Section

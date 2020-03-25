@@ -1,5 +1,5 @@
-import React from 'react';
-import './Greeting.css';
+import React from 'react'
+import './Greeting.css'
 
 function Greeting({greeting, title, icons}) {
 
@@ -37,7 +37,7 @@ function Greeting({greeting, title, icons}) {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
 export default Greeting;

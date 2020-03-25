@@ -14,7 +14,7 @@ function Landing({bioRef, projRef}) {
       <BioSection bioPageData={bioPageData} areaRef={bioRef}></BioSection>
       <ProjectSection projectPageData={projectPageData} areaRef={projRef}></ProjectSection>
     </main>
-  );
+  )
 }
 
 export default Landing

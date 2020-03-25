@@ -1,8 +1,8 @@
 import React from 'react'
 import './BioSection.css'
 import SkillList from '../SkillList/SkillList'
-import Section from '../Section/Section';
-import Image from '../Image/Image';
+import Section from '../Section/Section'
+import Image from '../Image/Image'
 
 
 const BioSection = ({bioPageData, areaRef}) => {
@@ -42,7 +42,7 @@ const BioSection = ({bioPageData, areaRef}) => {
 
       </div>
     </Section>
-  );
+  )
 }
 
 export default BioSection

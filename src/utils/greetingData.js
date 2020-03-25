@@ -27,6 +27,6 @@ const greetingData = {
       name: 'Email'
     }
   ]
-};
+}
 
-export default greetingData;
+export default greetingData
