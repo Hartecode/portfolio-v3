@@ -43,34 +43,34 @@
 
 @keyframes move-twink-back {
   from { background-position: 0 0; }
-  to { background-position: -10000px 5000px; }
+  to { background-position: -625rem 312.5rem; }
 }
 @-webkit-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {background-position: 0 0;}
+  to {background-position: -625rem 312.5rem;}
 }
 @-moz-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {background-position: 0 0;}
+  to {background-position: -625rem 312.5rem;}
 }
 @-ms-keyframes move-twink-back {
-  from {background-position:0 0;}
-  to {background-position:-10000px 5000px;}
+  from {background-position: 0 0;}
+  to {background-position: -625rem 312.5rem;}
 }
 
 @keyframes move-clouds-back {
-  from {background-position:0 0;}
-  to {background-position:10000px 0;}
+  from {background-position: 0 0;}
+  to {background-position: 625rem 0;}
 }
 @-webkit-keyframes move-clouds-back {
   from {background-position:0 0;}
-  to {background-position:10000px 0;}
+  to {background-position: 625rem 0;}
 }
 @-moz-keyframes move-clouds-back {
   from {background-position:0 0;}
-  to {background-position:10000px 0;}
+  to {background-position: 625rem 0;}
 }
 @-ms-keyframes move-clouds-back {
   from {background-position: 0;}
-  to {background-position:10000px 0;}
+  to {background-position: 625rem 0;}
 }

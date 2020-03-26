@@ -5,7 +5,7 @@
 .profile-img {
   margin: auto;
   margin-bottom: 2rem;
-  max-width: 200px;
+  max-width: 12.5rem;
 }
 
 .my-skills {
@@ -14,8 +14,8 @@
 }
 
 .skill-category {
-  min-width: 130px;
-  padding-top: 20px;
+  min-width: 8.125rem;
+  padding-top: 1.25rem;
   margin: auto;
   -webkit-text-decoration-color: var(--text-color3); /* Safari */    
   text-decoration-color: var(--text-color3);
