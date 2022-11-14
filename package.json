@@ -9,7 +9,7 @@
     "css-vars-ponyfill": "^2.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
